@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C45C0DE621FC4E9300A29B3D /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C0DE521FC4E9300A29B3D /* ZipCodeTextFieldDelegate.swift */; };
-		C45C0DE821FC4EA400A29B3D /* DollarSignTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C0DE721FC4EA400A29B3D /* DollarSignTextFieldDelegate.swift */; };
 		C4D0A79321FC4A3F00182E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A79221FC4A3F00182E41 /* AppDelegate.swift */; };
 		C4D0A79521FC4A3F00182E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A79421FC4A3F00182E41 /* ViewController.swift */; };
 		C4D0A79821FC4A3F00182E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D0A79621FC4A3F00182E41 /* Main.storyboard */; };
 		C4D0A79A21FC4A4100182E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D0A79921FC4A4100182E41 /* Assets.xcassets */; };
 		C4D0A79D21FC4A4100182E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D0A79B21FC4A4100182E41 /* LaunchScreen.storyboard */; };
+		C4D60DBA21FC6F17006C5049 /* DollarSignTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D60DB821FC6F17006C5049 /* DollarSignTextFieldDelegate.swift */; };
+		C4D60DBB21FC6F17006C5049 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D60DB921FC6F17006C5049 /* ZipCodeTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C45C0DE321FC4C8E00A29B3D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C45C0DE521FC4E9300A29B3D /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
-		C45C0DE721FC4EA400A29B3D /* DollarSignTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarSignTextFieldDelegate.swift; sourceTree = "<group>"; };
 		C4D0A78F21FC4A3F00182E41 /* TextFieldDelegateStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldDelegateStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D0A79221FC4A3F00182E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4D0A79421FC4A3F00182E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +25,8 @@
 		C4D0A79921FC4A4100182E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D0A79C21FC4A4100182E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4D0A79E21FC4A4100182E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D60DB821FC6F17006C5049 /* DollarSignTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarSignTextFieldDelegate.swift; sourceTree = "<group>"; };
+		C4D60DB921FC6F17006C5049 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,16 +40,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C45C0DE421FC4E7800A29B3D /* Text Field Delegates */ = {
-			isa = PBXGroup;
-			children = (
-				C45C0DE521FC4E9300A29B3D /* ZipCodeTextFieldDelegate.swift */,
-				C45C0DE721FC4EA400A29B3D /* DollarSignTextFieldDelegate.swift */,
-			);
-			name = "Text Field Delegates";
-			path = "../../TextFieldDelegateFinal/TextFieldDelegateFinal/Text Field Delegates";
-			sourceTree = "<group>";
-		};
 		C4D0A78621FC4A3F00182E41 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +60,8 @@
 		C4D0A79121FC4A3F00182E41 /* TextFieldDelegateStarter */ = {
 			isa = PBXGroup;
 			children = (
-				C45C0DE421FC4E7800A29B3D /* Text Field Delegates */,
+				C4D60DB821FC6F17006C5049 /* DollarSignTextFieldDelegate.swift */,
+				C4D60DB921FC6F17006C5049 /* ZipCodeTextFieldDelegate.swift */,
 				C4D0A79221FC4A3F00182E41 /* AppDelegate.swift */,
 				C4D0A79421FC4A3F00182E41 /* ViewController.swift */,
 				C4D0A79621FC4A3F00182E41 /* Main.storyboard */,
@@ -153,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D0A79521FC4A3F00182E41 /* ViewController.swift in Sources */,
-				C45C0DE821FC4EA400A29B3D /* DollarSignTextFieldDelegate.swift in Sources */,
-				C45C0DE621FC4E9300A29B3D /* ZipCodeTextFieldDelegate.swift in Sources */,
+				C4D60DBB21FC6F17006C5049 /* ZipCodeTextFieldDelegate.swift in Sources */,
+				C4D60DBA21FC6F17006C5049 /* DollarSignTextFieldDelegate.swift in Sources */,
 				C4D0A79321FC4A3F00182E41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

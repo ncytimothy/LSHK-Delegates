@@ -59,5 +59,3 @@ class FoodItemViewController: UIViewController, UITableViewDelegate, UITableView
     }
 }
 
-
-//: [Next](@next)

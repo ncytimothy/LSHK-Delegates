@@ -1,4 +1,3 @@
-import UIKit
 /*:
  ## Swift Design Patterns: Delegate Pattern
  

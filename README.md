@@ -9,7 +9,8 @@ Download the LSHK-Delegates Playgrounds from the downloads menu
 
 ### Further Reading
 - [UITextFieldDelegate](https://developer.apple.com/documentation/uikit/uitextfielddelegate)
--
+- [UITableViewDelegate](https://developer.apple.com/documentation/uikit/uitableviewdelegate)
+- [UITableViewDataSource](https://developer.apple.com/documentation/uikit/uitableviewdatasource)
 
 
 ## Authors

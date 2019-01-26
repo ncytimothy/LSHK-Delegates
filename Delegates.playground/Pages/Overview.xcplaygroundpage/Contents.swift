@@ -4,15 +4,14 @@ import UIKit
  
  #### Table of Contents
  - [Overview](Overview)
- - [Deep Dive](Deep Dive)
- - [Where do we use it?](Where)
+ - [Deep Dive](DeepDive)
  */
 
 /*:
  
  ### Overview
  
- Imagine that you have a "blueprint" for a pen that we need to use to write our next big idea. (Why would anyone have a blueprint for a pen, anyway?) This blueprint outlines the essential incredients for a pen: a casing, ink, top and cap.
+ Imagine that you have a "blueprint" for a pen that we need to use to write our next big idea. (Why would anyone have a blueprint for a pen, anyway?) This blueprint outlines the essential incredients for a pen: a casing, ink, top and usage style.
  
  We may further design and modify the pen by perhaps adding a clip, making the tip retractable with a spring, attaching fancy colors to it and so on.
  
@@ -20,7 +19,8 @@ import UIKit
  */
 /*:
  * Callout(Delegate Protocols):
- Delegate Protocols help us create the *necessary* blueprint for a requested object. A set of rules that the requesting object **must** conform to.
+ Delegate Protocols help us create the *necessary* bluepront for a delegating object. Protocols are sets of rules that the deelgate object **must** conform to.
+ 
   */
 /*:
  

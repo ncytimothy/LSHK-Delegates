@@ -13,6 +13,10 @@
  - The IBOutlets and interface have been built for you already, you just need to write the TextField delegates and IBActions to handle the requirements of the spec outlined in the video
  - You should start with creating each delegate, and then assign the delegate property of the textfield to each textfield
  
+  ## Questions
+  - Reach out to me on my Twitter handle @ncytimothy if you need some help solving this challenge!
+ 
+ 
 
 ### Further Reading
 - [UITextFieldDelegate](https://developer.apple.com/documentation/uikit/uitextfielddelegate)

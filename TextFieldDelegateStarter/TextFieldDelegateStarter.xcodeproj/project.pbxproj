@@ -46,7 +46,8 @@
 				C45C0DE521FC4E9300A29B3D /* ZipCodeTextFieldDelegate.swift */,
 				C45C0DE721FC4EA400A29B3D /* DollarSignTextFieldDelegate.swift */,
 			);
-			path = "Text Field Delegates";
+			name = "Text Field Delegates";
+			path = "../../TextFieldDelegateFinal/TextFieldDelegateFinal/Text Field Delegates";
 			sourceTree = "<group>";
 		};
 		C4D0A78621FC4A3F00182E41 = {

@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var switchTextField: UITextField!
     @IBOutlet weak var textFieldSwitch: UISwitch!
     
+    // Initialize the delegates
     
     override func viewDidLoad() {
         super.viewDidLoad()

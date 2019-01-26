@@ -7,7 +7,7 @@
 
 - Start with the LSHK-Delegates Playgrounds from the downloads menu
 - Work on the TextFieldDelegates Starter project
-- Ask questions to Tim Ng @ncytimothy
+- Ask questions to Tim Ng @ncytimothy on Twitter
 
 ### Further Reading
 - [UITextFieldDelegate](https://developer.apple.com/documentation/uikit/uitextfielddelegate)
